@@ -39,8 +39,8 @@ class ViewController: UIViewController {
         print("Butonul de CLICK a fost apasat!")
         
         pushButtonTapCount = pushButtonTapCount + 1
-        if pushButtonTapCount > 10 {
-            theLabel.text = "You pushed the button more than 10 times!!!"
+        if pushButtonTapCount > 20 {
+            theLabel.text = "You pushed the button more than 20 times!!!"
         } else {
              print("You pushed the button for:", pushButtonTapCount, "times")
         }
